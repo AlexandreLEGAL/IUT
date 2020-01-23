@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="vaisseauxSW_css.css"/>
+    <title>Starwars</title>
+</head>
+<body>
+<header>
+    <h1>Documents numériques - Evaluation n°3 - Vaisseaux de StarWars</h1>
+</header>
+<aside>
+        <h2>En image</h2>
+        {% for (_, _, img) in info_vaisseaux %}
+        <img src="images/{{img}}" alt="{{img}}">
+        {% endfor %}
+</aside>
+<main>
+    <section>
+        <h2>Tous les noms des vaisseaux</h2>
+        <ul>
+            {% for nom in liste_noms_vaisseaux %}
+            <li>{{nom}}</li>
+            {% endfor %}
+        </ul>
+    </section>
+    <section>
+        <h2>Les petits vaisseaux (equipage < 5)</h2>
+        <table>
+            <tr>
+                <th>Noms</th>
+                <th>equipage</th>
+                <th>vitesse</th>
+            </tr>
+            <tr>
+                {% for nom in liste_noms_vaisseaux_moins_de_5 %}
+                <td>{{nom}}</td>
+                {% endfor %}
+                {% for equipage in liste_noms_vaisseaux_moins_de_5 %}
+                <td>{{equipage}}</td>
+                {% endfor %}
+                {% for vitesse in liste_noms_vaisseaux_moins_de_5 %}
+                <td>{{vitesse}}</td>
+                {% endfor %}
+            </tr>
+        </table>
+    </section>
+</main>
+<footer>M1105 - novembre 2019 - Auteur : </footer>
+</body>

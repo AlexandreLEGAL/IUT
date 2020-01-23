@@ -1,0 +1,35 @@
+body{
+  display: flex;
+  flex-flow: wrap row;
+}
+body>header{
+  flex: 1 1 100%;
+}
+header, section, nav{
+  background: lightgray;
+  margin: 1em;
+}
+section{
+  flex:1 1 60%;
+}
+nav{
+  flex:1 1 10%;
+}
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+section header{
+  display: flex;
+  flex-flow: wrap row;
+}
+img{
+  max-width: 10em;
+  height: auto;
+}
+li{
+  list-style: none;
+}

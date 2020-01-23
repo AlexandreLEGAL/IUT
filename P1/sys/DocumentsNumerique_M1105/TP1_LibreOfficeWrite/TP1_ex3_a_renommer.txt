@@ -1,0 +1,52 @@
+﻿Introduction à la création de sites web
+Ce document, très très très largement inspiré du cours de Mathieu Nebra sur le site openclassrooms.com, a pour objectif de vous donner une idée des points essentiels à connaître pour créer un site web. Je vous engage d'ailleurs à aller visiter ce site.
+Table des matières
+I - Le fonctionnement des sites web	2
+II - HTML et CSS : deux langages pour créer un site web	4
+1. Les rôles de HTML et CSS	4
+2. Les différentes versions de HTML et CSS	5
+III - L'éditeur de texte	6
+IV - En résumé	6
+
+Le fonctionnement des sites web
+Comment fonctionnent les sites web ?
+Vous consultez très certainement des sites web tous les jours. Pour cela, vous lancez un programme appelé le navigateur web (Chrome, Firefox, IE, …). Avec le navigateur, vous pouvez consulter n'importe quel site web. Voici par exemple un navigateur affichant le célèbre site web Wikipédia :
+Aujourd'hui, tout le monde sait aller sur le Web… mais qui sait vraiment comment le Web fonctionne ? Comment créer des sites web ?
+J'ai entendu parler de HTML, de CSS, est-ce que cela a un rapport avec le fonctionnement des sites web ?
+Tout à fait !
+Il s'agit de langages informatiques qui permettent de créer des sites web. Tous les sites web sont basés sur ces langages, ils sont incontournables et universels aujourd'hui. Ils sont à la base même du Web. Le langage HTML a été inventé par un certain Tim Berners-Lee en 1991…
+Tim Berners-Lee suit encore aujourd'hui avec attention l'évolution du Web. Il a créé le World Wide Web Consortium (W3C) qui définit les nouvelles versions des langages liés au Web. Il a par ailleurs créé plus récemment la World Wide Web Foundation qui analyse et suit l'évolution du Web.
+Les langages HTML et CSS sont à la base du fonctionnement de tous les sites web. Quand vous consultez un site avec votre navigateur, il faut savoir que, en coulisses, des rouages s'activent pour permettre au site web de s'afficher. L'ordinateur se base sur ce qu'on lui a expliqué en HTML et CSS pour savoir ce qu'il doit afficher, comme le montre la figure suivante.
+
+HTML et CSS sont deux « langues » qu'il faut savoir parler pour créer des sites web. C'est le navigateur web qui fera la traduction entre ces langages informatiques et ce que vous verrez s'afficher à l'écran.
+Vous vous demandez sûrement pourquoi il faut connaître deux langages pour créer des sites web ? Je vous réponds sans plus tarder !
+HTML et CSS : deux langages pour créer un site web
+Pour créer un site web, on doit donner des instructions à l'ordinateur. Il ne suffit pas simplement de taper le texte qui devra figurer dans le site (comme on le ferait dans un traitement de texte LibreOffice par exemple), il faut aussi indiquer où placer ce texte, insérer des images, faire des liens entre les pages, etc.
+Les rôles de HTML et CSS
+Pour expliquer à l'ordinateur ce que vous voulez faire, il va falloir utiliser un langage qu'il comprend. Et c'est là que les choses se corsent, parce qu'il va falloir apprendre deux langages !
+Pourquoi avoir créé deux langages ? Un seul aurait suffi, non ?
+Vous devez vous dire que manipuler deux langages va être deux fois plus complexe et deux fois plus long à apprendre… mais ce n'est pas le cas ! Je vous rassure, s'il y a deux langages c'est, au contraire, pour faciliter les choses. Nous allons avoir affaire à deux langages qui se complètent car ils ont des rôles différents :
+HTML (HyperText Markup Language) : il a fait son apparition dès 1991 lors du lancement du Web. Son rôle est de gérer et organiser le contenu. C'est donc en HTML que vous écrirez ce qui doit être affiché sur la page : du texte, des liens, des images… Vous direz par exemple : « Ceci est mon titre, ceci est mon menu, voici le texte principal de la page, voici une image à afficher, etc. ».
+CSS (Cascading Style Sheets, aussi appelées Feuilles de style) : le rôle du CSS est de gérer l'apparence de la page web (agencement, positionnement, décoration, couleurs, taille du texte…). Ce langage est venu compléter le HTML en 1996.
+Vous pouvez très bien créer un site web uniquement en HTML, mais celui-ci ne sera pas très beau : l'information apparaîtra « brute ». C'est pour cela que le langage CSS vient toujours le compléter.
+Pour vous donner une idée, la figure suivante montre ce que donne la même page sans CSS puis avec le CSS.
+Le HTML définit le contenu (comme vous pouvez le voir, c'est brut de décoffrage !). Le CSS permet, lui, d'arranger le contenu et de définir la présentation : couleurs, image de fond, marges, taille du texte…
+Comme vous vous en doutez, le CSS a besoin d'une page HTML pour fonctionner. C'est pour cela que nous allons d'abord apprendre les bases du HTML avant de nous occuper de la décoration en CSS. 
+Vos premières pages ne seront donc pas les plus esthétiques, mais qu'importe ! Cela ne durera pas longtemps.
+Les différentes versions de HTML et CSS
+Au fil du temps, les langages HTML et CSS ont beaucoup évolué. Dans la toute première version de HTML (HTML 1.0) il n'était même pas possible d'afficher des images ! Les dernières versions HTML5 et CSS3 sont celles que nous utliserons à l'IUT cette année. Ces versions ne sont pas encore des versions "officiellement" finalisées par le W3C et elles évoluent sans cesse. C'est pourquoi l'une des compétences essentielle de tout développeur est de savoir chercher/lire/utiliser la documentation officiellement.
+L'éditeur de texte
+De quel logiciel vais-je avoir besoin pour créer mon site web ?
+Pour créer un site web, il suffit d'un éditeur de texte comme le Bloc-Notes sous Windows ou Notepad sous Linux.
+Il y a cependant des logiciels plus puissants aujourd'hui et personne n'utilise vraiment Bloc-Notes. On peut classer ces logiciels de création de site web en deux catégories :
+Les WYSIWYG (What You See Is What You Get - Ce Que Vous Voyez Est Ce Que Vous Obtenez) : ce sont des programmes qui se veulent très faciles d'emploi, ils permettent de créer des sites web sans apprendre de langage particulier. Parmi les plus connus d'entre eux : Mozilla Composer, Microsoft Expression Web, Dreamweaver… et même Word ! Leur principal défaut est la qualité souvent assez mauvaise du code HTML et CSS qui est automatiquement généré par ces outils. Un bon créateur de site web doit tôt ou tard connaître HTML et CSS, c'est pourquoi je ne recommande pas l'usage de ces outils.
+Les EDI (Environnement de Développement) : ce sont des programmes dédiés à l'écriture de code. On peut en général les utiliser pour de multiples langages, pas seulement HTML et CSS. Ils se révèlent être de puissants alliés pour les créateurs de sites web !	
+On citera par exemple Atom, Eclipse, Emacs ou Geany
+En résumé
+Le Web a été inventé par Tim Berners-Lee au début des années 1990.
+Pour créer des sites web, on utilise deux langages informatiques :
+HTML : permet d'écrire et organiser le contenu de la page (paragraphes, titres…) ;
+CSS : permet de mettre en forme la page (couleur, taille…).
+Il y a eu plusieurs versions des langages HTML et CSS. Les dernières versions sont HTML5 et CSS3.
+Le navigateur web est un programme qui permet d'afficher des sites web. Il lit les langages HTML et CSS pour savoir ce qu'il doit afficher.
+Dans bientôt, nous allons apprendre à utiliser les langages HTML et CSS. Nous travaillerons dans un programme appelé « EDI ».

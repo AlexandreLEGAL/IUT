@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="../main.css"/>
+    <meta charset="utf -8">
+    <title>Eval4</title>
+</head>
+<body>
+<header>
+    <h1>Document numérique : Evaluation 4</h1>
+    <h2>Les villes de France de plus de 30 000 habitants</h2>
+</header>
+<section>
+    <header>
+        <h2>Toute les villes</h2>
+        <img src="/pub/1A/DocNum/Eval4/images/IUTO.png" alt="iut">
+    </header>
+    <table>
+        <tr>
+            <th>Commune</th>
+            <th>Regions</th>
+            <th>Population en 2014</th>
+        </tr>
+        {% for commune,region,nombre_habitants in info %}
+        <tr>
+            <td>{{commune}}</td>
+            <td>{{region}}</td>
+            <td>{{nombre_habitants}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</section>
+<nav>
+    <h2><a href="">Toutes les villes</a></h2>
+    <h2>Ville par région</h2>
+    <ul>
+        {% for region in allregion %}
+        <li><a href="#">{{region}}</a></li>
+        {% endfor %}
+    </ul>
+</nav>
+<footer>
+</footer>
+</body>
+</html>

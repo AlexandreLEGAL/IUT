@@ -1,0 +1,47 @@
+header{
+  background: lightgrey;
+  padding: 1%;
+  margin: 1%;
+  flex: 1 1 100%;
+}
+img{
+  width: 5em;
+  max-height: auto;
+  padding: 1em;
+}
+body{
+  display: flex;
+  flex-flow: wrap;
+  padding: 0;
+}
+main{
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1 1 30%;
+}
+section {
+  background: lightgrey;
+  margin: 1%;
+  flex: 1 1;
+  padding: 1%;
+}
+aside{
+  background: lightgrey;
+  margin: 1%;
+  flex: 1 1 20%;
+  padding: 1%;
+}
+
+footer{
+  background: lightgray;
+  padding: 1%;
+  flex:1 1 100%;
+  margin: 1%;
+}
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
